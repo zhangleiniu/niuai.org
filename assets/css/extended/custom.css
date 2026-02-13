@@ -1,0 +1,65 @@
+/* ========================================
+   NIU AI Custom Styles - 强制生效版本
+   ======================================== */
+
+/* 所有链接默认红色 */
+a {
+    color: #BA0C2F !important;
+}
+
+a:hover {
+    color: #9a0a26 !important;
+}
+
+/* 导航菜单 */
+.menu a {
+    color: #374151 !important;  /* 默认灰色 */
+}
+
+.menu a:hover {
+    color: #BA0C2F !important;  /* 悬停红色 */
+}
+
+/* 当前激活的菜单项 */
+.menu a[aria-current="page"] {
+    color: #BA0C2F !important;
+    font-weight: 600 !important;
+}
+
+/* 文章列表标题 */
+.entry-header h2 a,
+.post-title a {
+    color: #000 !important;  /* 标题默认黑色 */
+}
+
+.entry-header h2 a:hover,
+.post-title a:hover {
+    color: #BA0C2F !important;  /* 悬停红色 */
+}
+
+/* 标签 */
+.post-tags a,
+.tag a {
+    background: #BA0C2F !important;
+    color: white !important;
+}
+
+.post-tags a:hover,
+.tag a:hover {
+    background: #9a0a26 !important;
+}
+
+/* 回到顶部按钮 */
+#top-link {
+    background: #BA0C2F !important;
+}
+
+#top-link:hover {
+    background: #9a0a26 !important;
+}
+
+/* 选中文字的背景 */
+::selection {
+    background: #BA0C2F;
+    color: white;
+}

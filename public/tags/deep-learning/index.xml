@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Deep-Learning on NIU AI Research Group</title>
+    <link>http://localhost:1313/tags/deep-learning/</link>
+    <description>Recent content in Deep-Learning on NIU AI Research Group</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Neural Networks</title>
+      <link>http://localhost:1313/presentations/intro-to-neural-networks/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/presentations/intro-to-neural-networks/</guid>
+      <description>An overview of neural network fundamentals</description>
+      <content:encoded><![CDATA[<h2 id="overview">Overview</h2>
+<p>This presentation introduces the fundamental concepts of neural networks, exploring how they learn from data and make predictions.</p>
+<h2 id="key-topics-covered">Key Topics Covered</h2>
+<h3 id="1-perceptrons">1. Perceptrons</h3>
+<p>The building blocks of neural networks.</p>
+<h3 id="2-activation-functions">2. Activation Functions</h3>
+<ul>
+<li>Sigmoid</li>
+<li>ReLU</li>
+<li>Tanh</li>
+<li>Softmax</li>
+</ul>
+<h3 id="3-backpropagation">3. Backpropagation</h3>
+<p>The algorithm that enables neural networks to learn.</p>
+<h2 id="results">Results</h2>
+<p>Our simple network achieved 95% accuracy on the MNIST test set.</p>
+<h2 id="references">References</h2>
+<ul>
+<li>Goodfellow, I., Bengio, Y., &amp; Courville, A. (2016). Deep Learning. MIT Press.</li>
+</ul>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

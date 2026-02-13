@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>NIU AI Research Group</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on NIU AI Research Group</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Education in High Schools</title>
+      <link>http://localhost:1313/projects/high-school-ai-education/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/high-school-ai-education/</guid>
+      <description>A pilot study introducing AI concepts to high school students</description>
+      <content:encoded><![CDATA[<h2 id="project-overview">Project Overview</h2>
+<p>This pilot study aims to introduce high school students to fundamental AI concepts through engaging, hands-on activities.</p>
+<p><strong>Status</strong>: Pilot<br>
+<strong>Collaborators</strong>: Prof. Johnson, DeKalb High School</p>
+<h2 id="objectives">Objectives</h2>
+<ol>
+<li>Demystify AI for younger learners</li>
+<li>Provide hands-on experience with AI tools</li>
+<li>Inspire interest in AI-related careers</li>
+<li>Create reusable teaching materials</li>
+</ol>
+<h2 id="curriculum-modules">Curriculum Modules</h2>
+<ul>
+<li>Module 1: What is AI?</li>
+<li>Module 2: Machine Learning Basics</li>
+<li>Module 3: Build Your Own AI</li>
+<li>Module 4: Ethics and Society</li>
+</ul>
+<h2 id="current-progress">Current Progress</h2>
+<p>We&rsquo;ve completed the first four sessions with positive feedback from students.</p>
+<h2 id="next-steps">Next Steps</h2>
+<ol>
+<li>Complete the pilot program</li>
+<li>Gather comprehensive feedback</li>
+<li>Refine curriculum</li>
+<li>Explore partnerships with additional schools</li>
+</ol>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Introduction to Neural Networks</title>
+      <link>http://localhost:1313/presentations/intro-to-neural-networks/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/presentations/intro-to-neural-networks/</guid>
+      <description>An overview of neural network fundamentals</description>
+      <content:encoded><![CDATA[<h2 id="overview">Overview</h2>
+<p>This presentation introduces the fundamental concepts of neural networks, exploring how they learn from data and make predictions.</p>
+<h2 id="key-topics-covered">Key Topics Covered</h2>
+<h3 id="1-perceptrons">1. Perceptrons</h3>
+<p>The building blocks of neural networks.</p>
+<h3 id="2-activation-functions">2. Activation Functions</h3>
+<ul>
+<li>Sigmoid</li>
+<li>ReLU</li>
+<li>Tanh</li>
+<li>Softmax</li>
+</ul>
+<h3 id="3-backpropagation">3. Backpropagation</h3>
+<p>The algorithm that enables neural networks to learn.</p>
+<h2 id="results">Results</h2>
+<p>Our simple network achieved 95% accuracy on the MNIST test set.</p>
+<h2 id="references">References</h2>
+<ul>
+<li>Goodfellow, I., Bengio, Y., &amp; Courville, A. (2016). Deep Learning. MIT Press.</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;our-mission&#34;&gt;Our Mission&lt;/h2&gt;
+&lt;p&gt;The NIU AI Research Group is dedicated to exploring artificial intelligence through collaborative learning, student presentations, and innovative research projects.&lt;/p&gt;
+&lt;h2 id=&#34;what-we-do&#34;&gt;What We Do&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Student Presentations&lt;/strong&gt;: Regular presentations where students share their research and insights&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Research Projects&lt;/strong&gt;: Collaborative initiatives exploring AI applications and education&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Community Building&lt;/strong&gt;: Creating a supportive environment for AI learning&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Educational Outreach&lt;/strong&gt;: Extending AI education beyond the university&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;get-involved&#34;&gt;Get Involved&lt;/h2&gt;
+&lt;p&gt;Contact us at &lt;a href=&#34;mailto:contact@niuai.org&#34;&gt;contact@niuai.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Location&lt;/strong&gt;: Northern Illinois University, DeKalb, Illinois&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h2 id="our-mission">Our Mission</h2>
+<p>The NIU AI Research Group is dedicated to exploring artificial intelligence through collaborative learning, student presentations, and innovative research projects.</p>
+<h2 id="what-we-do">What We Do</h2>
+<ul>
+<li><strong>Student Presentations</strong>: Regular presentations where students share their research and insights</li>
+<li><strong>Research Projects</strong>: Collaborative initiatives exploring AI applications and education</li>
+<li><strong>Community Building</strong>: Creating a supportive environment for AI learning</li>
+<li><strong>Educational Outreach</strong>: Extending AI education beyond the university</li>
+</ul>
+<h2 id="get-involved">Get Involved</h2>
+<p>Contact us at <a href="mailto:contact@niuai.org">contact@niuai.org</a></p>
+<p><strong>Location</strong>: Northern Illinois University, DeKalb, Illinois</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

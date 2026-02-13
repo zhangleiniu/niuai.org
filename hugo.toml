@@ -1,0 +1,49 @@
+baseURL = 'https://niuai.org/'
+languageCode = 'en-us'
+title = 'NIU AI Research Group'
+theme = 'PaperMod'
+
+[params]
+  description = "NIU AI Research Group - Student presentations and collaborative research projects"
+  author = "NIU AI"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowFullTextinRSS = true
+  
+  # NIU Colors
+  defaultTheme = "light"
+  
+  [params.homeInfoParams]
+    Title = "Welcome to NIU AI"
+    Content = """
+    A research group at Northern Illinois University exploring artificial intelligence through student presentations and collaborative projects.
+    
+    Explore our latest [presentations](/presentations) or check out our [research projects](/projects).
+    """
+
+[[menu.main]]
+  name = 'Home'
+  pageRef = '/'
+  weight = 10
+
+[[menu.main]]
+  name = 'Presentations'
+  pageRef = '/presentations'
+  weight = 20
+
+[[menu.main]]
+  name = 'Projects'
+  pageRef = '/projects'
+  weight = 30
+
+[[menu.main]]
+  name = 'About'
+  pageRef = '/about'
+  weight = 40
+
+[taxonomies]
+  tag = 'tags'
+  category = 'categories'
