@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="light">
+<html lang="en" dir="auto" data-theme="auto">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Presentations | NIU AI Research Group</title>
+<title>Presentations | NIU AI &amp; ML Community</title>
 <meta name="keywords" content="">
-<meta name="description" content="Presentations - NIU AI Research Group">
-<meta name="author" content="NIU AI">
+<meta name="description" content="Presentations - NIU AI &amp; ML Community">
+<meta name="author" content="Lei Zhang">
 <link rel="canonical" href="http://localhost:1313/presentations/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.6a5a3c8294fd84f98f25553191af04982f51b762ec718c2d4d1c517f5fae192e.css" integrity="sha256-alo8gpT9hPmPJVUxka8EmC9Rt2LscYwtTRxRf1&#43;uGS4=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
@@ -28,10 +28,47 @@
         }
 
     </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
 </noscript>
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
     }
 
 </script>
@@ -40,7 +77,9 @@
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="NIU AI Research Group (Alt + H)">NIU AI Research Group</a>
+            <a href="http://localhost:1313/" accesskey="h" title="NIU AI &amp; ML Community (Alt + H)">
+                <img src="http://localhost:1313/images/niuai.org.png" alt="" aria-label="logo"
+                    height="35">NIU AI &amp; ML Community</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -66,7 +105,7 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/" title="NIU AI Research Group">
+                <a href="http://localhost:1313/" title="NIU AI &amp; ML Community">
                     <span>Home</span>
                 </a>
             </li>
@@ -85,6 +124,11 @@
                     <span>About</span>
                 </a>
             </li>
+            <li>
+                <a href="http://localhost:1313/subscribe/" title="Subscribe">
+                    <span>Subscribe</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -96,24 +140,105 @@
 </header>
 
 <article class="post-entry"> 
+<figure class="entry-cover">
+            <img loading="lazy" src="http://localhost:1313/presentations/embedding-based-retrieval/title.jpeg" alt="">
+</figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Introduction to Neural Networks
+    <h2 class="entry-hint-parent">On the Theoretical Limitations of Embedding-Based Retrieval
     </h2>
   </header>
   <div class="entry-content">
-    <p>Overview This presentation introduces the fundamental concepts of neural networks, exploring how they learn from data and make predictions.
-Key Topics Covered 1. Perceptrons The building blocks of neural networks.
-2. Activation Functions Sigmoid ReLU Tanh Softmax 3. Backpropagation The algorithm that enables neural networks to learn.
-Results Our simple network achieved 95% accuracy on the MNIST test set.
-References Goodfellow, I., Bengio, Y., &amp; Courville, A. (2016). Deep Learning. MIT Press. </p>
+    <p>Overview On October 3, 2025, Md. Toyaha Rahman Ratul, a Ph.D. student at Northern Illinois University, presented a recent paper titled “On the Theoretical Limitations of Embedding-Based Retrieval,” authored by researchers from Google DeepMind and Johns Hopkins University. The paper formally examines and reveals the inherent limitations of single-embedding-based retrieval methods—approaches widely adopted in both industry and academia—thereby having a significant impact on the research community.
+In his presentation, Ratul also discussed how the findings and conclusions of this paper relate to and influence his own research on citation recommendation.
+</p>
   </div>
-  <footer class="entry-footer"><span title='2024-01-15 00:00:00 +0000 UTC'>January 15, 2024</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Jane Smith</span></footer>
-  <a class="entry-link" aria-label="post link to Introduction to Neural Networks" href="http://localhost:1313/presentations/intro-to-neural-networks/"></a>
+  <footer class="entry-footer"><span title='2025-10-03 00:00:00 +0000 UTC'>October 3, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Md. Toyaha Rahman Ratul,</span></footer>
+  <a class="entry-link" aria-label="post link to On the Theoretical Limitations of Embedding-Based Retrieval" href="http://localhost:1313/presentations/embedding-based-retrieval/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+            <img loading="lazy" src="http://localhost:1313/presentations/systematic-security-analysis-of-cellular-network/title.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Systematic Security Analysis of Cellular Network Specifications and Implementations
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Overview On April 11, 2025, we were honored to host Dr. Imtiaz Karim, a Postdoctoral Researcher at Purdue University and incoming Assistant Professor at the University of Texas at Dallas, for a distinguished research talk titled “Systematic Security Analysis of Cellular Network Specifications and Implementations.” Dr. Karim presented a compelling overview of the security challenges in modern cellular networks, particularly 4G and 5G, and introduced CellularLint, a cutting-edge tool that uses large language models to identify inconsistencies in cellular specifications. He further discussed his methodologies for analyzing protocol implementations and revealed a range of vulnerabilities that have influenced updates to industry standards. The talk concluded with Dr. Karim’s vision for securing future wireless communication systems, including 6G. We sincerely thank Dr. Karim for sharing his impactful research and insights with our department.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-04-11 00:00:00 +0000 UTC'>April 11, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Imtiaz Karim</span></footer>
+  <a class="entry-link" aria-label="post link to Systematic Security Analysis of Cellular Network Specifications and Implementations" href="http://localhost:1313/presentations/systematic-security-analysis-of-cellular-network/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+            <img loading="lazy" src="http://localhost:1313/presentations/llms-as-a-judges/title.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">LLMs as a Judges
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Overview On March 28, 2025, Miftahul Jannat Mokarrama, a PhD student in the Computer Science department, presented a research topic on “LLMs as Judges,” a trending subject in the field of large language models. Her presentation provided a comprehensive survey covering functionality, methodology, applications, meta-evaluation, and limitations. Key conclusions included: LLMs as evaluators are versatile, evaluation is context-specific, challenges persist, human-AI collaboration is essential, and evaluation should extend beyond traditional research papers.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-03-28 00:00:00 +0000 UTC'>March 28, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Miftahul Jannat Mokarrama</span></footer>
+  <a class="entry-link" aria-label="post link to LLMs as a Judges" href="http://localhost:1313/presentations/llms-as-a-judges/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+            <img loading="lazy" src="http://localhost:1313/presentations/ai-driven-requirements/title.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">AI-driven Requirements Engineering Framework
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Overview On March 21, 2025, Dr. Mona Rahimi, an associate professor in the Computer Science department, delivered a presentation on An AI-Driven Requirements Engineering Framework Tailored for Evaluating AI-Based Software, a problem she and her students have been investigating. With the rise of AI-based software, many traditional software engineering methodologies have become ineffective. In her talk, Dr. Rahimi discussed the redefinition of requirement specification and proposed methods for aligning AI perception with requirements engineering.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-03-21 00:00:00 +0000 UTC'>March 21, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Mona Rahimi</span></footer>
+  <a class="entry-link" aria-label="post link to AI-driven Requirements Engineering Framework" href="http://localhost:1313/presentations/ai-driven-requirements/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+            <img loading="lazy" src="http://localhost:1313/presentations/forward-forward-algorithm/title.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Forward-Forward Algorithm
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Overview On March 7, 2025, Mosab Rezaei, a PhD student from the CS department, presented on the Forward-Forward algorithm for neural network models, originally proposed by Hinton. The talk explored the biological foundations and intuition behind the algorithm, its working principles, and related follow-up research. During the Q&amp;A session, participants discussed neuron-inspired AI, alternative neural network architectures, and the differences and connections between the Forward-Forward algorithm and traditional feedforward networks.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-03-07 00:00:00 +0000 UTC'>March 7, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Mosab Rezaei</span></footer>
+  <a class="entry-link" aria-label="post link to Forward-Forward Algorithm" href="http://localhost:1313/presentations/forward-forward-algorithm/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+            <img loading="lazy" src="http://localhost:1313/presentations/large-language-models/title.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Large Language Models: What, Why, and How
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Overview On 02/21/2025, the first NIU AI/ML Research Seminar was held in PM103. Ibrahim Al Azher, a PhD student from the CS department, delivered a general introduction to current studies on Large Language Models, their limitations, and recent advancements in Retrieval-Augmented Generation (RAG). The presentation, which lasted about an hour, was well received by the participants and sparked engaging discussions afterward. This event marked a successful start to the AI/ML research seminar series.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-02-21 00:00:00 +0000 UTC'>February 21, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Ibrahim Al Azher</span></footer>
+  <a class="entry-link" aria-label="post link to Large Language Models: What, Why, and How" href="http://localhost:1313/presentations/large-language-models/"></a>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">NIU AI Research Group</a></span> · 
+        <span>&copy; 2026 <a href="http://localhost:1313/">NIU AI &amp; ML Community</a></span> · 
 
     <span>
         Powered by

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Algorithm on NIU AI &amp; ML Community</title>
+    <link>http://localhost:1313/tags/algorithm/</link>
+    <description>Recent content in Algorithm on NIU AI &amp; ML Community</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Forward-Forward Algorithm</title>
+      <link>http://localhost:1313/presentations/forward-forward-algorithm/</link>
+      <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/presentations/forward-forward-algorithm/</guid>
+      <description>An overview of the Forward-Forward Algorithm</description>
+      <content:encoded><![CDATA[<h2 id="overview">Overview</h2>
+<p>On March 7, 2025, Mosab Rezaei, a PhD student from the CS department, presented on the Forward-Forward algorithm for neural network models, originally proposed by Hinton. The talk explored the biological foundations and intuition behind the algorithm, its working principles, and related follow-up research. During the Q&amp;A session, participants discussed neuron-inspired AI, alternative neural network architectures, and the differences and connections between the Forward-Forward algorithm and traditional feedforward networks.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="light">
+<html lang="en" dir="auto" data-theme="auto">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Tags | NIU AI Research Group</title>
+<title>Tags | NIU AI &amp; ML Community</title>
 <meta name="keywords" content="">
-<meta name="description" content="NIU AI Research Group - Student presentations and collaborative research projects">
-<meta name="author" content="NIU AI">
+<meta name="description" content="NIU AI and Machine Learning Study Community">
+<meta name="author" content="Lei Zhang">
 <link rel="canonical" href="http://localhost:1313/tags/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.6a5a3c8294fd84f98f25553191af04982f51b762ec718c2d4d1c517f5fae192e.css" integrity="sha256-alo8gpT9hPmPJVUxka8EmC9Rt2LscYwtTRxRf1&#43;uGS4=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
@@ -28,10 +28,47 @@
         }
 
     </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
 </noscript>
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
     }
 
 </script>
@@ -40,7 +77,9 @@
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="NIU AI Research Group (Alt + H)">NIU AI Research Group</a>
+            <a href="http://localhost:1313/" accesskey="h" title="NIU AI &amp; ML Community (Alt + H)">
+                <img src="http://localhost:1313/images/niuai.org.png" alt="" aria-label="logo"
+                    height="35">NIU AI &amp; ML Community</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -66,7 +105,7 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/" title="NIU AI Research Group">
+                <a href="http://localhost:1313/" title="NIU AI &amp; ML Community">
                     <span>Home</span>
                 </a>
             </li>
@@ -85,6 +124,11 @@
                     <span>About</span>
                 </a>
             </li>
+            <li>
+                <a href="http://localhost:1313/subscribe/" title="Subscribe">
+                    <span>Subscribe</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -95,28 +139,46 @@
 
 <ul class="terms-tags">
     <li>
-        <a href="http://localhost:1313/tags/deep-learning/">deep-learning <sup><strong><sup>1</sup></strong></sup> </a>
+        <a href="http://localhost:1313/tags/algorithm/">Algorithm <sup><strong><sup>1</sup></strong></sup> </a>
     </li>
     <li>
         <a href="http://localhost:1313/tags/education/">education <sup><strong><sup>1</sup></strong></sup> </a>
     </li>
     <li>
+        <a href="http://localhost:1313/tags/introduction/">Introduction <sup><strong><sup>1</sup></strong></sup> </a>
+    </li>
+    <li>
         <a href="http://localhost:1313/tags/k-12/">K-12 <sup><strong><sup>1</sup></strong></sup> </a>
     </li>
     <li>
-        <a href="http://localhost:1313/tags/machine-learning/">machine-learning <sup><strong><sup>1</sup></strong></sup> </a>
-    </li>
-    <li>
-        <a href="http://localhost:1313/tags/neural-networks/">neural-networks <sup><strong><sup>1</sup></strong></sup> </a>
+        <a href="http://localhost:1313/tags/llm/">LLM <sup><strong><sup>2</sup></strong></sup> </a>
     </li>
     <li>
         <a href="http://localhost:1313/tags/outreach/">outreach <sup><strong><sup>1</sup></strong></sup> </a>
+    </li>
+    <li>
+        <a href="http://localhost:1313/tags/paper/">Paper <sup><strong><sup>1</sup></strong></sup> </a>
+    </li>
+    <li>
+        <a href="http://localhost:1313/tags/research/">Research <sup><strong><sup>1</sup></strong></sup> </a>
+    </li>
+    <li>
+        <a href="http://localhost:1313/tags/security/">Security <sup><strong><sup>1</sup></strong></sup> </a>
+    </li>
+    <li>
+        <a href="http://localhost:1313/tags/software-engineering/">Software Engineering <sup><strong><sup>1</sup></strong></sup> </a>
+    </li>
+    <li>
+        <a href="http://localhost:1313/tags/survey/">Survey <sup><strong><sup>2</sup></strong></sup> </a>
+    </li>
+    <li>
+        <a href="http://localhost:1313/tags/theory/">Theory <sup><strong><sup>1</sup></strong></sup> </a>
     </li>
 </ul>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">NIU AI Research Group</a></span> · 
+        <span>&copy; 2026 <a href="http://localhost:1313/">NIU AI &amp; ML Community</a></span> · 
 
     <span>
         Powered by

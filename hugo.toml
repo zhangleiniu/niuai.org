@@ -1,28 +1,42 @@
 baseURL = 'https://niuai.org/'
 languageCode = 'en-us'
-title = 'NIU AI Research Group'
+title = 'NIU AI & ML Community'
 theme = 'PaperMod'
 
 [params]
-  description = "NIU AI Research Group - Student presentations and collaborative research projects"
-  author = "NIU AI"
+  description = "NIU AI and Machine Learning Study Community"
+  author = "Lei Zhang"
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowFullTextinRSS = true
+  assets.favicon = "favicon.ico"
+  ShowCover = true
+  
+  [params.cover]
+    linkFullImages = true
+    responsiveImages = true
+    hiddenInSingle = true
+  
+  [params.label]
+    text = ""
+    icon = "/images/niuai.org.png"
+    iconHeight = 35
   
   # NIU Colors
   defaultTheme = "light"
   
   [params.homeInfoParams]
-    Title = "Welcome to NIU AI"
-    Content = """
-    A research group at Northern Illinois University exploring artificial intelligence through student presentations and collaborative projects.
-    
-    Explore our latest [presentations](/presentations) or check out our [research projects](/projects).
-    """
+  Title = "Welcome to NIU AI"
+  Content = """
+  Exploring artificial intelligence through student presentations, collaborative research, and hands-on learning.
+
+  **Stay Connected:** [Subscribe](/subscribe) to receive notifications about upcoming seminars and new presentations.
+
+  **Share Your Research:** Interested in presenting your work? Contact us at contact@niuai.org
+  """
 
 [[menu.main]]
   name = 'Home'
@@ -44,6 +58,16 @@ theme = 'PaperMod'
   pageRef = '/about'
   weight = 40
 
+[[menu.main]]
+  name = 'Subscribe'
+  pageRef = '/subscribe'
+  weight = 50
+
 [taxonomies]
   tag = 'tags'
   category = 'categories'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # 允许在 Markdown 中使用 HTML

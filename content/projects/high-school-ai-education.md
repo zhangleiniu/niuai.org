@@ -1,39 +1,69 @@
 ---
-title: "AI Education in High Schools"
-date: 2024-09-01
+title: "Secure AI Project"
+date: 2025-01-20
 draft: false
 tags: ["education", "outreach", "K-12"]
-description: "A pilot study introducing AI concepts to high school students"
+description: "Advancing AI and Cybersecurity Literacy in High Schools"
 ---
 
-## Project Overview
+## Overview
 
-This pilot study aims to introduce high school students to fundamental AI concepts through engaging, hands-on activities.
+The **Secure-AI Project** is a research initiative focused on integrating artificial intelligence (AI) and cybersecurity literacy into high school education. As AI technologies rapidly transform communication, learning, and the workforce, students must develop not only technical familiarity but also conceptual understanding and ethical awareness. At the same time, increasing digital dependence requires stronger cybersecurity literacy to protect privacy, data, and digital identity.
 
-**Status**: Pilot  
-**Collaborators**: Prof. Johnson, DeKalb High School
+Despite this urgency, structured AI and cybersecurity instruction remains limited in many secondary school settings. The Secure-AI Project addresses this gap by designing and studying a curriculum that combines foundational AI concepts (e.g., data training, machine learning, algorithmic bias) with essential cybersecurity topics (e.g., privacy, digital responsibility, and online protection).
 
-## Objectives
+The project emphasizes inquiry-based learning, hands-on exploration, and ethical reflection, aiming to support both student learning and teacher capacity-building.
 
-1. Demystify AI for younger learners
-2. Provide hands-on experience with AI tools
-3. Inspire interest in AI-related careers
-4. Create reusable teaching materials
+---
 
-## Curriculum Modules
+## Spring 2026 Pilot Implementation
 
-- Module 1: What is AI?
-- Module 2: Machine Learning Basics
-- Module 3: Build Your Own AI
-- Module 4: Ethics and Society
+In Spring 2026, we completed a pilot implementation of the Secure-AI curriculum at **Marmion Academy**, a grades 9–12 high school in Aurora, Illinois.
 
-## Current Progress
+The pilot provided valuable insights into how students engage with AI and cybersecurity concepts in authentic classroom contexts. It also allowed us to examine how collaborative curriculum development and classroom integration can support meaningful learning experiences in secondary education.
 
-We've completed the first four sessions with positive feedback from students.
+Findings from this pilot are informing ongoing refinement of the Secure-AI curriculum and guiding future research and implementation efforts.
 
-## Next Steps
+---
 
-1. Complete the pilot program
-2. Gather comprehensive feedback
-3. Refine curriculum
-4. Explore partnerships with additional schools
+## Invitation to Partner Schools
+
+We are currently seeking additional high schools in the Northern Illinois region that are interested in integrating AI and cybersecurity literacy into their programs.
+
+Participation during this phase of the project is **offered at no cost** to schools. We aim to collaborate with educators who are interested in expanding students’ opportunities to explore emerging technologies through structured, research-informed learning experiences.
+
+Schools interested in learning more are encouraged to contact us for further information.
+
+---
+
+## Curriculum Snapshot: Secure-AI Modules
+
+The Secure-AI curriculum consists of six integrated modules that progressively connect AI foundations, cybersecurity principles, and ethical reflection through hands-on coding activities.
+
+### Module 1 – Inside Artificial Intelligence  
+**Focus:** Understanding the logic of AI programs  
+Students explore how AI systems process data, identify patterns, and make decisions. Activities include building simple rule-based programs (e.g., chatbots) and discussing what constitutes “intelligence” in machines.
+
+### Module 2 – Machine Learning from Scratch  
+**Focus:** Programming introductory machine learning models  
+Students learn supervised and unsupervised learning concepts and train simple classifiers using real datasets. Emphasis is placed on model evaluation, bias, and overfitting.
+
+### Module 3 – The Hidden World of Cybersecurity  
+**Focus:** Encryption, hashing, and digital protection  
+Students implement basic encryption scripts and examine how login systems secure passwords. Ethical debates explore privacy and data access.
+
+### Module 4 – Networks and Digital Defense  
+**Focus:** Communication systems and protection mechanisms  
+Students simulate network interactions and examine how firewalls and intrusion detection systems protect digital environments.
+
+### Module 5 – AI Ethics and Adversarial Attacks  
+**Focus:** Vulnerabilities in AI systems  
+Students investigate how adversarial inputs can mislead machine learning models and reflect on fairness, robustness, and ethical design.
+
+### Module 6 – Capstone: Building a “Secure AI” System  
+**Focus:** Integration and applied design  
+Students design and present a small AI-driven system that incorporates both intelligent functionality and security awareness, reflecting on technical choices and ethical implications.
+
+---
+
+Across modules, students engage in coding, critical discussion, and real-world problem-solving while exploring pathways in AI, cybersecurity, and related STEM careers.

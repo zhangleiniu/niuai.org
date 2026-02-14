@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="light">
+<html lang="en" dir="auto" data-theme="auto">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Outreach | NIU AI Research Group</title>
+<title>Outreach | NIU AI &amp; ML Community</title>
 <meta name="keywords" content="">
-<meta name="description" content="NIU AI Research Group - Student presentations and collaborative research projects">
-<meta name="author" content="NIU AI">
+<meta name="description" content="NIU AI and Machine Learning Study Community">
+<meta name="author" content="Lei Zhang">
 <link rel="canonical" href="http://localhost:1313/tags/outreach/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.6a5a3c8294fd84f98f25553191af04982f51b762ec718c2d4d1c517f5fae192e.css" integrity="sha256-alo8gpT9hPmPJVUxka8EmC9Rt2LscYwtTRxRf1&#43;uGS4=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
@@ -28,10 +28,47 @@
         }
 
     </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
 </noscript>
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
     }
 
 </script>
@@ -40,7 +77,9 @@
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="NIU AI Research Group (Alt + H)">NIU AI Research Group</a>
+            <a href="http://localhost:1313/" accesskey="h" title="NIU AI &amp; ML Community (Alt + H)">
+                <img src="http://localhost:1313/images/niuai.org.png" alt="" aria-label="logo"
+                    height="35">NIU AI &amp; ML Community</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -66,7 +105,7 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/" title="NIU AI Research Group">
+                <a href="http://localhost:1313/" title="NIU AI &amp; ML Community">
                     <span>Home</span>
                 </a>
             </li>
@@ -83,6 +122,11 @@
             <li>
                 <a href="http://localhost:1313/about/" title="About">
                     <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/subscribe/" title="Subscribe">
+                    <span>Subscribe</span>
                 </a>
             </li>
         </ul>
@@ -107,13 +151,13 @@ Collaborators: Prof. Johnson, DeKalb High School
 Objectives Demystify AI for younger learners Provide hands-on experience with AI tools Inspire interest in AI-related careers Create reusable teaching materials Curriculum Modules Module 1: What is AI? Module 2: Machine Learning Basics Module 3: Build Your Own AI Module 4: Ethics and Society Current Progress We’ve completed the first four sessions with positive feedback from students.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2024-09-01 00:00:00 +0000 UTC'>September 1, 2024</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>NIU AI</span></footer>
+  <footer class="entry-footer"><span title='2024-09-01 00:00:00 +0000 UTC'>September 1, 2024</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Lei Zhang</span></footer>
   <a class="entry-link" aria-label="post link to AI Education in High Schools" href="http://localhost:1313/projects/high-school-ai-education/"></a>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">NIU AI Research Group</a></span> · 
+        <span>&copy; 2026 <a href="http://localhost:1313/">NIU AI &amp; ML Community</a></span> · 
 
     <span>
         Powered by
