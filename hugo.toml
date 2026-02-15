@@ -31,11 +31,11 @@ theme = 'PaperMod'
   [params.homeInfoParams]
   Title = "Welcome to NIU AI"
   Content = """
-  Exploring artificial intelligence through student presentations, collaborative research, and hands-on learning.
+  **Stay Connected:** [Subscribe](/subscribe) to receive notifications about upcoming seminars 
+  and new presentations.
 
-  **Stay Connected:** [Subscribe](/subscribe) to receive notifications about upcoming seminars and new presentations.
-
-  **Share Your Research:** Interested in presenting your work? Contact us at contact@niuai.org
+  **Share a Talk or Presentation:** Interested in giving a talk or presentation? 
+  Contact us at contact@niuai.org
   """
 
 [[menu.main]]

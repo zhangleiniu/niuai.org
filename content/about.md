@@ -13,6 +13,7 @@ The NIU AI & ML Community is committed to exploring artificial intelligence and 
     - In-depth overviews of specific research fields
     - Detailed discussion of influential research papers
     - Emerging technologies, methods, and trends in AI/ML
+
     This platform allows students to practice presenting, but its value goes far beyond presentation skills. Preparing a talk encourages deep learning of a subject, and delivering it provides a chance to test your understanding. Presentations also foster academic collaboration by helping participants understand each other’s work and explore potential partnerships. Most importantly, they promote discussion, sparking new ideas and expanding perspectives.
 - **Research Projects**: Collaborative projects exploring AI applications and innovative research across disciplines.
 - **Community Building**: We cultivate a supportive environment for learning, discussion, and networking.
@@ -20,7 +21,7 @@ The NIU AI & ML Community is committed to exploring artificial intelligence and 
 
 ## Leadership & Participation
 
-The community was founded by Drs. Lei Zhang and Zhishuai Guo, faculty members in the Department of Computer Science at Northern Illinois University, with the support of the department. This official backing ensures continuity and resources for our activities.
+The community was founded by Drs. [Lei Zhang](https://zhanglei.phd/) and [Zhishuai Guo](https://zhishuaiguo.github.io/), faculty members in the [Department of Computer Science](https://www.cs.niu.edu/) at Northern Illinois University, with the support of the department. 
 
 We welcome other faculty and students to take leadership roles, contribute presentations, or organize events, helping sustain and grow the community. Everyone is encouraged to engage, collaborate, and share knowledge.
 
