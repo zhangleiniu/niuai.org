@@ -70,4 +70,4 @@ theme = 'PaperMod'
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
-      unsafe = true  # 允许在 Markdown 中使用 HTML
+      unsafe = true
