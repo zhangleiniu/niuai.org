@@ -1,10 +1,10 @@
 ---
 title: "Integrate RL with LLM Agents"
-date: 2026-02-22
+date: 2026-02-20
 draft: false
 tags: ["Research", "LLM"]
 author: "Ibrahim Al Azher"
-description: "Two works from Dr. Rahimi's PhD students"
+description: "Background and Proposed Framework"
 featured_image: "title.jpeg"
 cover:
     image: "title.jpeg"
