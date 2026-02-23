@@ -11,6 +11,8 @@ cover:
     relative: false
 ---
 
+[Download the presentation slides](slides.pdf)
+
 ### Overview and Motivation
 
 - Presentation on integrating reinforcement learning concepts with LLM engines to improve performance
