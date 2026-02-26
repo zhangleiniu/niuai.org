@@ -1,9 +1,12 @@
 ---
-title: "Secure AI Project"
+title: "Secure-AI Project"
 date: 2025-01-20
 draft: false
 tags: ["education", "outreach", "K-12"]
 description: "Advancing AI and Cybersecurity Literacy in High Schools"
+cover:
+    image: "title.jpg"
+    relative: false
 ---
 
 ## Overview
