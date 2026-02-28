@@ -14,6 +14,9 @@ cover:
 
 {{< youtube hld1-tcx2Nc >}}
 
+[Download the presentation slides](slides.pdf)
+
+
 Today in our AI/ML seminar, we were pleased to have Maliha Zahan Chowdhury as the presenter. Maliha is a first-year PhD student in Dr. Zhishuai Guo’s research group.
 
 Her talk focused on Direct Preference Optimization (DPO), primarily based on the original 2023 DPO paper. Although the paper was published only three years ago, it has already been cited nearly 8,000 times, reflecting its significant impact on LLM alignment and optimization research.
