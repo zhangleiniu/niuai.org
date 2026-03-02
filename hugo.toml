@@ -44,13 +44,18 @@ theme = 'PaperMod'
   weight = 10
 
 [[menu.main]]
-  name = 'Presentations'
-  pageRef = '/presentations'
+  name = 'Seminars'
+  pageRef = '/seminars'
   weight = 20
 
 [[menu.main]]
   name = 'Projects'
   pageRef = '/projects'
+  weight = 30
+
+[[menu.main]]
+  name = 'Resources'
+  pageRef = '/resources'
   weight = 30
 
 [[menu.main]]
