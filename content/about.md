@@ -4,7 +4,7 @@ title: "About"
 
 ## Our Mission
 
-The NIU AI & ML Community is committed to exploring artificial intelligence and machine learning through collaborative learning, engaging presentations, and innovative research projects. Our goal is to foster a vibrant environment where students, faculty, and external researchers can share knowledge, exchange ideas, and collaborate on cutting-edge topics.
+**NIU AI** is committed to exploring artificial intelligence and machine learning through collaborative learning, engaging presentations, and innovative research projects. Our goal is to foster a vibrant environment where students, faculty, and external researchers can share knowledge, exchange ideas, and collaborate on cutting-edge topics.
 
 ## What We Do
 

@@ -1,10 +1,10 @@
 baseURL = 'https://niuai.org/'
 languageCode = 'en-us'
-title = 'NIU AI & ML Community'
+title = 'NIU AI'
 theme = 'PaperMod'
 
 [params]
-  description = "NIU AI and Machine Learning Study Community"
+  description = "Artificial Intelligence Community at Northern Illinois University"
   author = "Lei Zhang"
   ShowReadingTime = true
   ShowShareButtons = false
