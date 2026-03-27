@@ -4,6 +4,9 @@ date: 2026-03-25
 draft: false
 author: "Lei Zhang"
 tags: ["Search Engine", "Academic Search", "Machine Learning", "Information Retrieval", "Research Tools"]
+cover:
+    image: "title.png"
+    relative: false
 ---
 
 # Rider
