@@ -1,6 +1,6 @@
 ---
 title: "OpenPapers: AI/ML Conference Paper Collection"
-date: 2026-03-25
+date: 2025-07-02
 draft: false
 tags: ["AI", "Machine Learning", "Data Collection", "Scholarly Infrastructure"]
 ---
