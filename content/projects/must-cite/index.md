@@ -13,7 +13,7 @@ cover:
 
 **Rider** is a search engine for research papers that I built to support my own research workflow.
 
-🔗 Live Demo: http://rider.cs.niu.edu/
+🔗 Live Demo: https://mustcite.com/ or http://rider.cs.niu.edu/ (NIU campus access only)
 
 ---
 
