@@ -1,5 +1,5 @@
 ---
-title: "Rider: A Curated Search Engine for Research Papers"
+title: "mustcite.com: A Curated Search Engine for Research Papers"
 date: 2026-03-25
 draft: false
 author: "Lei Zhang"
@@ -9,9 +9,9 @@ cover:
     relative: false
 ---
 
-# Rider
+# mustcite.com
 
-**Rider** is a search engine for research papers that I built to support my own research workflow.
+**mustcite.com** is a search engine for research papers that I built to support my own research workflow.
 
 🔗 Live Demo: https://mustcite.com/ or http://rider.cs.niu.edu/ (NIU campus access only)
 
@@ -27,13 +27,13 @@ Existing academic search platforms such as Google Scholar and Semantic Scholar a
 - Mixed archival vs. non-archival content
 - Ranking not always aligned with research needs
 
-To address these issues, Rider focuses on **clean, curated, and conference-aware search for research papers**.
+To address these issues, mustcite.com focuses on **clean, curated, and conference-aware search for research papers**.
 
 ---
 
 ## Key Features
 
-Rider is designed around practical research usage:
+mustcite.com is designed around practical research usage:
 
 ### Conference-based search
 Users can filter papers by specific venues, including top AI/ML conferences, making it easier to focus on high-quality research output.
@@ -60,7 +60,7 @@ We are currently working on integrating semantic search capabilities with a stud
 
 ## Future Work
 
-Rider is actively evolving. Planned improvements include:
+mustcite.com is actively evolving. Planned improvements include:
 
 - Semantic search for paper retrieval
 - Better ranking signals for research relevance
