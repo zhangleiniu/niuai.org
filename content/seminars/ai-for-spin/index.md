@@ -5,6 +5,9 @@ draft: false
 tags: ["Research", "AI for Science"]
 author: "Tao Xu"
 description: "Open problems in spin chemistry and materials that need AI collaborators"
+cover:
+    image: "title.jpeg"
+    relative: false
 ---
 
 ## Overview

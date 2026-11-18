@@ -7,6 +7,8 @@ author: "Harish Varma Siravuri"
 description: "Evidence-linked, calibrated, comparability-checked result records for comparing methods across papers"
 ---
 
+> 🎬 **Video coming soon.** The recording of this talk will be posted here.
+
 ## Overview
 
 **Speaker:** Harish Varma Siravuri  
